@@ -1,0 +1,30 @@
+# Core RAG dependencies
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-community==0.0.13
+chromadb==0.4.22
+pypdf==4.0.0
+
+# OpenTelemetry core
+opentelemetry-api==1.22.0
+opentelemetry-sdk==1.22.0
+
+# OpenTelemetry instrumentation (optional but recommended)
+opentelemetry-instrumentation==0.43b0
+opentelemetry-instrumentation-requests==0.43b0
+
+# Azure OpenAI
+openai==1.10.0
+
+# FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Utilities
+python-dotenv==1.0.0
+tiktoken==0.5.2
+pydantic==2.5.0
+
+# Optional: Export to Splunk/OTLP
+opentelemetry-exporter-otlp==1.22.0
+opentelemetry-exporter-otlp-proto-grpc==1.22.0

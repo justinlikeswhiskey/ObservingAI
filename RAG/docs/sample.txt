@@ -1,0 +1,1 @@
+"OpenTelemetry is an observability framework for cloud-native software." | Out-File -FilePath docs\sample.txt
